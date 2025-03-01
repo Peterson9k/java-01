@@ -1,0 +1,31 @@
+PROJETO : gerenciamente de biblioteca
+
+- usuario: cliente, adm
+- livro: adicionado pelo adm e acessado pelo cliente
+- emprestimo: vai ser o emprestimo de um livro feito pelo cliente
+
+
+
+ -> adm acesso total ao sistema
+- pode  acessar a conta de um cliente 
+- pode adicionar um livro, remover um livo, listar os livros
+- pode remover gerenciar os emprestimo de uma conta
+
+ -> cliente acesso limitado ao sistema
+- criar conta (acessar a conta, deletar a conta, mudar os dados da conta) 
+- acessar lista de livro 
+- selecionar um livro (cada livro vai ter um id unico que sera passado para acessar o livro)
+- realizar emprestimo (nao pode pegar emprestado o mesmo livro)
+
+
+adm 
+-> nome
+-> email (unico)
+-> telefone
+-> senha 
+
+cliente 
+-> nome
+-> email (unico)
+-> telefone
+-> senha
